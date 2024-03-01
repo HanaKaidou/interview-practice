@@ -1,0 +1,37 @@
+
+/dataflow-generator/
+/dataflow-server/target/
+/logs/
+!.mvn/wrapper/maven-wrapper.jar
+*.txt
+*.pdf
+*.zip
+#/dataflow-server/src/main/resources/application-local.yml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.DS_Store
+*.txt
+*.pdf
+*.zip
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/dataflow-server/src/main/resources/rebel.xml
