@@ -10,11 +10,11 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.4.5</version>
+        <version>3.2.3</version>
         <relativePath/>
     </parent>
 
-    <groupId>com.titan</groupId>
+    <groupId>com.csh.interview</groupId>
     <artifactId>interview-practice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -22,7 +22,7 @@
     <description>面试练习-父工程</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>21</java.version>
     </properties>
 
     <dependencies>
