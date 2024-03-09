@@ -1,12 +1,8 @@
-
-/dataflow-generator/
-/dataflow-server/target/
-/logs/
+HELP.md
+target/
 !.mvn/wrapper/maven-wrapper.jar
-*.txt
-*.pdf
-*.zip
-#/dataflow-server/src/main/resources/application-local.yml
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
@@ -16,10 +12,6 @@
 .settings
 .springBeans
 .sts4-cache
-.DS_Store
-*.txt
-*.pdf
-*.zip
 
 ### IntelliJ IDEA ###
 .idea
@@ -29,9 +21,13 @@
 
 ### NetBeans ###
 /nbproject/private/
-/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-/dataflow-server/src/main/resources/rebel.xml
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
