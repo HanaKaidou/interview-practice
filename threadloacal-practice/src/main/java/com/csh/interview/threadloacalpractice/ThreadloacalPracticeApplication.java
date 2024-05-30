@@ -8,7 +8,6 @@ public class ThreadloacalPracticeApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ThreadloacalPracticeApplication.class, args);
-
     }
 
 }
